@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="./Scripts/WorkWithAudio.js"></script>
+    <script src="./Scripts/ChangeImg.js"></script>
+    <title>Yarik sound-board</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="block">
+                <img class="yarik-icon" id="icon" src="./Icons/icon1.png" height="300px" width="300px" />
+                <h1>Yarik sound-board<br>18+</h1>
+            </div>
+        </header>
+        <div class="block">
+            <ul class="sounds">
+                <li>
+                    <figure>
+                        <figcaption>Телевизор пиздит</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Телевизор.mp3"
+                     onplay="other_pause([0])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Крик 1</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Крик1.mp3"
+                     onplay="other_pause([1])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Мазаник спасай</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Мазаник спасай.mp3"
+                     onplay="other_pause([2])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Я буду учить ГА...</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Я буду учить ГА.mp3"
+                     onplay="other_pause([3])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Спасите</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Спасите.mp3"
+                     onplay="other_pause([4])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Истерический смех 1</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Истерический смех 1.mp3"
+                     onplay="other_pause([5])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Пицца</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Пицца.mp3"
+                     onplay="other_pause([6])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Ержан</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Ержан.mp3"
+                     onplay="other_pause([7])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>О, едем нахуй</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/О, едем нахуй.mp3"
+                     onplay="other_pause([8])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Щас как въебу ему...</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Щас как въебу ему.mp3"
+                     onplay="other_pause([9])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>О бл мясо едзе</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/О бл мясо едзе.mp3"
+                     onplay="other_pause([10])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>На нахуй</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/На нахуй.mp3"
+                     onplay="other_pause([11])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Пососал</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Пососал.mp3"
+                     onplay="other_pause([12])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Да как блять?</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Да как.mp3"
+                     onplay="other_pause([13])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Пошли нахуй</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Пошли нахуй.mp3"
+                     onplay="other_pause([14])">
+                </audio>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>Что сосут чемпионы?</figcaption>
+                    </figure>
+                    <audio class="audio-quote"
+                     controls
+                     src="./Sounds/Что сосут чемпионы.mp3"
+                     onplay="other_pause([15])">
+                </audio>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="block">
+                Yarik sound-board. Просто топовые цитаты.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
