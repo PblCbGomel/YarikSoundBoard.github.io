@@ -5,6 +5,6 @@ let a = document.getElementsByTagName("audio");
                 if(i != b){
                     a[i].pause()
                     a[i].currentTime = 0.0;
-                };
+                } 
             }
         }
