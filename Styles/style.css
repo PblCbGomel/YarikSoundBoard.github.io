@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #3CA2EC;
-    width: 100%;
+    max-width: 100%;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 
 .block {
     display: block;
-    width: 950px;
+    max-width: 950px;
     margin: auto;
     padding: 50px;
 }
@@ -66,6 +66,33 @@ figcaption {
 .audio-quote::-webkit-media-controls-panel {
     background-color: #8FC9FF;
     box-shadow: 2px 2px 4px 0px #006773;
+}
+
+.block-added-audio {
+    margin: auto;
+    margin-top: -40px;
+    padding-bottom: 50px;
+    display: block;
+    width: 950px;
+    text-align: center;
+    height: 60px;
+}
+
+.add-quote {
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: #3CA2EC;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.add-quote:active {
+    font-size: 22px;
+    background-color: #2D65F6;
+    padding: 18px 36px;
 }
 
 footer {

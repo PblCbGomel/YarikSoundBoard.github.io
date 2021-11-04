@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./Styles/style.css">
     <script src="./Scripts/WorkWithAudio.js"></script>
     <script src="./Scripts/ChangeImg.js"></script>
+    <script src="./Scripts/QuoteAdd.js"></script>
     <title>Yarik sound-board</title>
 </head>
 <body>
@@ -26,7 +27,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Телевизор.mp3"
-                     onplay="other_pause([0])">
+                     onplay="other_pause([0])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -36,7 +38,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Крик1.mp3"
-                     onplay="other_pause([1])">
+                     onplay="other_pause([1])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -46,7 +49,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Мазаник спасай.mp3"
-                     onplay="other_pause([2])">
+                     onplay="other_pause([2])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -56,7 +60,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Я буду учить ГА.mp3"
-                     onplay="other_pause([3])">
+                     onplay="other_pause([3])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -66,7 +71,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Спасите.mp3"
-                     onplay="other_pause([4])">
+                     onplay="other_pause([4])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -76,7 +82,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Истерический смех 1.mp3"
-                     onplay="other_pause([5])">
+                     onplay="other_pause([5])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -86,7 +93,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Пицца.mp3"
-                     onplay="other_pause([6])">
+                     onplay="other_pause([6])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -96,7 +104,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Ержан.mp3"
-                     onplay="other_pause([7])">
+                     onplay="other_pause([7])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -106,7 +115,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/О, едем нахуй.mp3"
-                     onplay="other_pause([8])">
+                     onplay="other_pause([8])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -116,7 +126,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Щас как въебу ему.mp3"
-                     onplay="other_pause([9])">
+                     onplay="other_pause([9])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -126,7 +137,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/О бл мясо едзе.mp3"
-                     onplay="other_pause([10])">
+                     onplay="other_pause([10])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -136,7 +148,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/На нахуй.mp3"
-                     onplay="other_pause([11])">
+                     onplay="other_pause([11])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -146,7 +159,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Пососал.mp3"
-                     onplay="other_pause([12])">
+                     onplay="other_pause([12])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -156,7 +170,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Да как.mp3"
-                     onplay="other_pause([13])">
+                     onplay="other_pause([13])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -166,7 +181,8 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Пошли нахуй.mp3"
-                     onplay="other_pause([14])">
+                     onplay="other_pause([14])"
+                     preload="auto">
                 </audio>
                 </li>
                 <li>
@@ -176,10 +192,14 @@
                     <audio class="audio-quote"
                      controls
                      src="./Sounds/Что сосут чемпионы.mp3"
-                     onplay="other_pause([15])">
+                     onplay="other_pause([15])"
+                     preload="auto">
                 </audio>
                 </li>
             </ul>
+        </div>
+        <div class="block-added-audio" id="button">
+            <button id="add-quote" class="add-quote" onclick="buttonClicked()">Добавить цитату</button>
         </div>
         <footer>
             <div class="block">
