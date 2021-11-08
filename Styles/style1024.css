@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) and (min-width: 769px) {  
+    h1 {
+        font-size: 48px;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .block {
+        max-width: 700px;
+        padding: 40px;
+    }
+
+    .sounds {
+        width: 580px;
+    }
+    
+    .sounds li {
+        padding: 0px 20px 20px 0px;
+        width: 200px;
+    }
+    
+    audio {
+        width: 280px;
+    }
+    
+    figcaption {
+        font-size: 16px;
+        margin-left: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .block-added-audio {
+        margin-top: -30px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        width: 700px;
+        height: 50px;
+    }
+    
+    .add-quote {
+        font-size: 20px;
+        padding: 16px 32px;
+    }
+    
+    .add-quote:active {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+    
+    footer {
+        font-size: 10px;
+    }
+}
