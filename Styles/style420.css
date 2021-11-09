@@ -9,7 +9,7 @@
     }
     
     .block {
-        max-width: 250px;
+        max-width: 240px;
         padding: 10px;
     }
 
@@ -31,14 +31,6 @@
         font-size: 10px;
         margin-left: 12px;
         margin-bottom: 4px;
-    }
-    
-    .block-added-audio {
-        margin-top: -5px;
-        margin-left: 0px;
-        padding-bottom: 20px;
-        width: 250px;
-        height: 20px;
     }
     
     .add-quote {

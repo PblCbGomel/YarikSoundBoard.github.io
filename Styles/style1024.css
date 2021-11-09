@@ -9,21 +9,25 @@
     }
     
     .block {
-        max-width: 700px;
-        padding: 40px;
+        max-width: 768px;
+        padding: 20px;
+    }
+
+    .no-padding-bottom {
+        padding-bottom: 0px;
     }
 
     .sounds {
-        width: 580px;
+        width: 680px;
     }
     
     .sounds li {
-        padding: 0px 20px 20px 0px;
-        width: 200px;
+        padding: 20px 40px 0px 10px;
+        width: 260px;
     }
     
     audio {
-        width: 280px;
+        width: 260px;
     }
     
     figcaption {
@@ -33,11 +37,8 @@
     }
     
     .block-added-audio {
-        margin-top: -30px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        width: 700px;
-        height: 50px;
+        width: 768px;
+        height: 120px;
     }
     
     .add-quote {

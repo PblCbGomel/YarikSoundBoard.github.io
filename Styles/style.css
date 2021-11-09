@@ -37,6 +37,10 @@
         85% { opacity: 1 }
         100% { opacity: 0 }
       }
+
+    .no-padding-bottom {
+        padding-bottom: 0px;
+    }
     
     .sounds {
         list-style: none;
@@ -46,7 +50,7 @@
     }
     
     .sounds li {
-        padding: 0px 50px 30px 50px;
+        padding: 30px 50px 0px 30px;
         width: 350px;
     }
     
@@ -69,17 +73,15 @@
     
     .block-added-audio {
         margin: auto;
-        margin-top: -40px;
-        padding-bottom: 50px;
-        padding-left: 40px;
-        display: block;
+        display: flex;
+        align-items: center;
         width: 950px;
-        text-align: center;
-        height: 60px;
+        height: 160px;
     }
     
     .add-quote {
-        position: relative;
+        display: block;
+        margin: auto;
         font-weight: 600;
         font-size: 24px;
         background-color: #3CA2EC;
